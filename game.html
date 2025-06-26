@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Tools Hub</title>
+  <meta name="description" content="Discover powerful AI tools for text, images, video, productivity and more.">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #0f172a;
+      color: white;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      color: #38bdf8;
+      font-size: 2.5rem;
+    }
+
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .tool-card {
+      background-color: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: transform 0.2s;
+    }
+
+    .tool-card:hover {
+      transform: scale(1.02);
+    }
+
+    .tool-name {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #38bdf8;
+      margin-bottom: 10px;
+    }
+
+    .tool-desc {
+      font-size: 0.95rem;
+      color: #cbd5e1;
+      margin-bottom: 15px;
+    }
+
+    .visit-btn {
+      display: inline-block;
+      padding: 10px 16px;
+      background-color: #38bdf8;
+      color: #0f172a;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      color: #94a3b8;
+      font-size: 0.9rem;
+    }
+
+    @media(max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🤖 AI Tools Hub</h1>
+    <p>Discover the best free AI tools in one place</p>
+  </header>
+
+  <div class="tools-grid">
+
+    <div class="tool-card">
+      <div class="tool-name">ChatGPT</div>
+      <div class="tool-desc">AI chatbot by OpenAI for conversations, writing, coding, and more.</div>
+      <a class="visit-btn" href="https://chat.openai.com" target="_blank">Visit Tool</a>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-name">Canva AI</div>
+      <div class="tool-desc">Design anything with AI-powered templates, text to image & more.</div>
+      <a class="visit-btn" href="https://www.canva.com/" target="_blank">Visit Tool</a>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-name">Remove.bg</div>
+      <div class="tool-desc">Remove image backgrounds instantly using AI.</div>
+      <a class="visit-btn" href="https://www.remove.bg/" target="_blank">Visit Tool</a>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-name">Pictory</div>
+      <div class="tool-desc">Turn text articles into videos automatically with voiceover.</div>
+      <a class="visit-btn" href="https://pictory.ai/" target="_blank">Visit Tool</a>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-name">Copy.ai</div>
+      <div class="tool-desc">Generate high-converting marketing copy in seconds.</div>
+      <a class="visit-btn" href="https://www.copy.ai/" target="_blank">Visit Tool</a>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 AI Tools Hub | Powered by Shahmeer
+  </footer>
+
+</body>
+</html>
